@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Shares</SubscriptionId>
+  <SubscriptionId>Shares-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Share access, C$ share or file share access, share creation or deletetion, UNC drive mapping.</Description>
   <Enabled>true</Enabled>
@@ -42,7 +42,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC4-Shares</LogFile>
+  <LogFile>ForwardedEvents</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
