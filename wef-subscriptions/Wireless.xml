@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Wireless</SubscriptionId>
+  <SubscriptionId>Wireless-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Wireless 802.1x authentication, Detect wireless connection with a peer MAC address</Description>
   <Enabled>true</Enabled>
@@ -27,7 +27,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC4-Wireless</LogFile>
+  <LogFile>ForwardedEvents</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
