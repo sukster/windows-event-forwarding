@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Event-Log-Diagnostics</SubscriptionId>
+  <SubscriptionId>Event-Log-Diagnostics-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Event log service events, errors, start and stop events for the Windows Event Log Service.</Description>
   <Enabled>true</Enabled>
@@ -33,7 +33,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC3-Windows-Diagnostics</LogFile>
+  <LogFile>ForwardedEvents</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
