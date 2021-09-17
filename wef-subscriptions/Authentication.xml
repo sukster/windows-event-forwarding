@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Authentication</SubscriptionId>
+  <SubscriptionId>Authentication-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Authentication events during logon and logoff.</Description>
   <Enabled>true</Enabled>
@@ -52,7 +52,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC-Authentication</LogFile>
+  <LogFile>ForwardedEvents</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
