@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Operating-System</SubscriptionId>
+  <SubscriptionId>Operating-System-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>OS startup and shutdown, RPC violations, SMBv1 auditing, Remote SAM access, OS crashes.</Description>
   <Enabled>true</Enabled>
@@ -85,7 +85,7 @@
     <TransportName>http</TransportName>
     <ContentFormat>RenderedText</ContentFormat>
     <Locale Language="en-US"/>
-    <LogFile>WEC5-Operating-System</LogFile>
+    <LogFile>ForwardedEvents</LogFile>
     <AllowedSourceNonDomainComputers/>
     <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
   </Subscription>
