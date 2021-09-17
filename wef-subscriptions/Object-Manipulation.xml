@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Object-Manipulation</SubscriptionId>
+  <SubscriptionId>Object-Manipulation-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Manipulation of handles, SACLs, object deletions, and permissions.</Description>
   <Enabled>true</Enabled>
@@ -33,7 +33,7 @@
     <TransportName>http</TransportName>
     <ContentFormat>RenderedText</ContentFormat>
     <Locale Language="en-US"/>
-    <LogFile>WEC2-Object-Manipulation</LogFile>
+    <LogFile>ForwardedEvents</LogFile>
     <AllowedSourceNonDomainComputers/>
     <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
   </Subscription>
