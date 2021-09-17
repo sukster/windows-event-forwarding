@@ -1,5 +1,5 @@
 <Subscription xmlns="http://schemas.microsoft.com/2006/03/windows/events/subscription">
-  <SubscriptionId>Process-Execution</SubscriptionId>
+  <SubscriptionId>Process-Execution-Sentinel</SubscriptionId>
   <SubscriptionType>SourceInitiated</SubscriptionType>
   <Description>Process Execution and Command-line Auditing Events</Description>
   <Enabled>true</Enabled>
@@ -29,7 +29,7 @@
   <TransportName>http</TransportName>
   <ContentFormat>RenderedText</ContentFormat>
   <Locale Language="en-US"/>
-  <LogFile>WEC-Process-Execution</LogFile>
+  <LogFile>ForwardedEvents</LogFile>
   <AllowedSourceNonDomainComputers/>
   <AllowedSourceDomainComputers>O:NSG:NSD:(A;;GA;;;DC)(A;;GA;;;NS)(A;;GA;;;DD)</AllowedSourceDomainComputers>
 </Subscription>
